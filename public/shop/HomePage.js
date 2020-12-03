@@ -1,5 +1,6 @@
+exports.default = HomePage;
 
-export default function HomePage(req, res) {
+function HomePage(req, res) {
   let params = req.query
   console.log(params)
 /*  let screen_width = req.body.screen_width || 720

@@ -1,5 +1,6 @@
+exports.default = MinePage;
 
-export default function MinePage(req, res) {
+function MinePage(req, res) {
   let params = req.query
   console.log(params)
 
@@ -63,7 +64,8 @@ export default function MinePage(req, res) {
         "data": {
           "leftText": '关于我们',
           "leftImage":"http://123.56.254.117:9000/shop/aboutme.png",
-          'showRightImage':true
+          'showRightImage':true,
+          "navigate":{"type":"jump"}
         }
       },
     ]

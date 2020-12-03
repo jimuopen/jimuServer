@@ -1,7 +1,7 @@
-import MinePage from '../public/shop/MinePage'
-import HomePage from '../public/shop/HomePage'
-import ListPage from '../public/shop/ListPage'
-import CartPage from '../public/shop/CartPage'
+var MinePage = require('../public/shop/MinePage');
+var HomePage = require('../public/shop/HomePage');
+var ListPage = require('../public/shop/ListPage');
+var CartPage = require('../public/shop/CartPage');
 
 var express = require('express');
 var router = express.Router();

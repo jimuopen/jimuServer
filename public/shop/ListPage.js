@@ -1,4 +1,7 @@
-export default function ListPage(req, res) {
+
+exports.default = ListPage;
+
+function ListPage(req, res) {
   let params = req.query
   console.log(params)
 /*  let screen_width = req.body.screen_width || 720

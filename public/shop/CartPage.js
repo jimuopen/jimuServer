@@ -1,5 +1,6 @@
+exports.default = CartPage;
 
-export default function CartPage(req, res) {
+function CartPage(req, res) {
   let params = req.query
   console.log(params)
 /*  let screen_width = req.body.screen_width || 720
